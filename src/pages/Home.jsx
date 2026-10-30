@@ -12,12 +12,13 @@ export default function Home() {
     <>
       <section className="bg-[radial-gradient(ellipse_at_top,rgba(59,130,246,0.18),transparent_65%)] px-6 py-24 text-center md:py-32">
         <div className="rise mx-auto flex max-w-3xl flex-col items-center">
-          <div
-            className="mb-6 flex h-20 w-20 items-center justify-center rounded-full border-2 border-blue-400 bg-slate-900 text-2xl font-bold text-blue-400"
-            aria-hidden="true"
-          >
-            MA
-          </div>
+                    
+
+          <img
+  src="/image.png"
+  alt="Mujib Ashraf Mainuddin"
+  className="mb-6 h-40 w-40 rounded-full border-4 border-blue-400 object-cover md:h-56 md:w-56"
+/>
           <p className="mb-4 text-blue-400">Welcome to my portfolio</p>
           <h1 className="mb-6 text-4xl font-bold text-white md:text-6xl">
             Hi, I'm Mujib Ashraf Mainuddin
